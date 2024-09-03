@@ -1,5 +1,4 @@
 .about{
-    display: flex; 
     padding-top: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -10,5 +9,14 @@
 
 }
 .about_intro{
-    font-size: 10px;
+    font-size: 18px;
+    padding-top: 1%;
+}
+
+.research{
+    padding-top: 3%;
+}
+
+.research{
+    padding-top: 4%;
 }
