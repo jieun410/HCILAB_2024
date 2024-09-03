@@ -1,0 +1,23 @@
+.textbox{
+    display: block; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    background-color: rgb(113, 113, 113);
+    background-size: 100%;
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.textbox_contents{
+    line-height: 190%;
+    font-size: 20px;
+    font-weight: normal;
+}

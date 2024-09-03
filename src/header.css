@@ -1,0 +1,30 @@
+.menubar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+}
+.logo{
+    width: 10%;;
+    height: 10%;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(113, 113, 113);
+    
+    
+}
+
+.search{
+    width: 40%;;
+    height: 10%;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(113, 113, 113)); /*png 색 수정*/
+    justify-content: right;
+}

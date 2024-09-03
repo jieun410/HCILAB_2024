@@ -1,0 +1,14 @@
+.about{
+    display: flex; 
+    padding-top: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+.about_intro{
+    font-size: 10px;
+}
