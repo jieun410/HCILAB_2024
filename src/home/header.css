@@ -2,8 +2,9 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-between; /*아이템 사이 균일한 간격*/
     position: fixed;
+    background-color: white;
 }
 .logo{
     width: 10%;;
@@ -11,7 +12,7 @@
 }
 
 .menu{
-    width: 40%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;

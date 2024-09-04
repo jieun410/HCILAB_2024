@@ -3,9 +3,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 150px;
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(181, 181, 181);
     background-size: 100%;
-    color:  rgb(255, 255, 255);
+    color:  rgb(97, 97, 97);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -20,4 +20,5 @@
     line-height: 190%;
     font-size: 20px;
     font-weight: normal;
+    
 }
