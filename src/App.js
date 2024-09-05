@@ -1,20 +1,17 @@
 import React, {Component} from "react";
-
+import {BrowserRouter as BR, Routes, Route} from "react-router-dom";
 import Header from "./home/header"
-import Section1 from "./home/section1";
-import Section2 from "./home/section2";
-import Section3 from "./home/section3";
+import Main from "./main";
+
 
 const App = () => {
     return(
-        <>
+        <BR>
         <Header/>
-        <Section1/>
-        <Section2/>
-        <Section3/>
-        </>
-
-    
+            <Routes>
+                <Route path="/home" element={<Main />}></Route>
+            </Routes>
+        </BR>
     )
 }
 export default App;
