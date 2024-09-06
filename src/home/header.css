@@ -2,15 +2,18 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content:space-between; /*아이템 사이 균일한 간격*/
+    justify-content:space-between; /*아이템 사이 균일한 간격 */
     position: fixed;
+    top: 0;
+    left: 0;
     background-color: white;
     padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* 메뉴바 다른 요소 위 배치 */
+    z-index: 1000; /*메뉴바 다른 요소 위 배치*/
+    box-sizing: border-box;
+
 }
 .logo{
-    width: auto;;
     height: 50px;
     cursor: pointer; /*클릭 가능한 아이콘*/
 
@@ -19,9 +22,8 @@
 .menu{
     display: flex; /*메뉴항목 가로 배치*/
     gap: 20px; /* 항목 사이 간격*/
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
-    /* color: rgb(113, 113, 113); */
 }
 
 .menu a {
@@ -30,9 +32,111 @@
 
 }
 
+.other{
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    gap: 20px; /* 로그인 버튼과 검색 아이콘 사이 간격 */
+    /* font-size: 18px; */
+
+
+}
+
+.login{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .search{
-    width: 40%;;
+    width: 24px;
     height: auto;
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(113, 113, 113)); /*png 색 수정*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .menu {
+        font-size: 18px;
+        gap: 20px;
+    }
+    .login {
+        font-size: 18px;
+    }
+    .search{
+        width: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+        font-size: 16px;
+        gap: 15px;
+    }
+    .login {
+        font-size: 16px;
+    }
+    .search{
+        width: 20px;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px){
+    .menubar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .other {
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .logo {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    
+
+    .search{
+        width: 18px;
+    }
+}
+
+@media (max-width: 479px) {
+    .menubar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 12px;
+    }
+    .other {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        gap: 8px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-bottom: 5px;
+        height: 30px;
+    }
+
+    .login{
+        font-size: 12px;
+    }
+    
+    .search{
+        width: 16px;
+    }
 
 }

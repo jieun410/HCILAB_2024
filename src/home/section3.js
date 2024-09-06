@@ -23,7 +23,7 @@ return (
                 <div>
                     <img className="research_img" src={`${process.env.PUBLIC_URL}/img/chick.jpg`} align="left" alt="project1"/>
                     <div className='research_text'>
-                        <span>대면 상담 대비 상담 효과 및 사용성 향상이 가능한 비대면 상담 플랫폼</span>
+                        <span>위풍당당 오리친구</span>
                     </div>
                 </div>
                 </div>

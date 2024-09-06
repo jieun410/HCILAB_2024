@@ -8,7 +8,7 @@
 }
 
 .mainLogo_img{
-    width: 15%;;
+    width: auto;
     height: 15%;
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(22, 22, 22));
 }
