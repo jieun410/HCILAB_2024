@@ -3,6 +3,7 @@ import React from 'react';
 import "./header.css"
 
 
+
 function header() {
     const handleNavigation = (path) => {
         window.location.href = path;
@@ -27,10 +28,9 @@ return (
                 <img className="search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt='search'/>
             </a>
         </div>
-
-
-
     </div>
+
+    
 );
 }
 

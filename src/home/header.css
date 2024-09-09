@@ -96,12 +96,14 @@
         margin-top: 10px;
         gap: 10px;
     }
-    .logo {
+    /* .logo {
         margin-bottom: 10px;
         height: 30px;
-    }
+    } */
     
-
+    .login{
+        font-size: 14px;
+    }
     .search{
         width: 18px;
     }
@@ -126,10 +128,10 @@
         width: 100%;
         justify-content: space-between;
     }
-    .logo {
+    /* .logo {
         margin-bottom: 5px;
         height: 30px;
-    }
+    } */
 
     .login{
         font-size: 12px;

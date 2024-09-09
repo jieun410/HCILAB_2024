@@ -1,5 +1,5 @@
 .about{
-    padding-top: 150px;
+    padding-top: 70px;
     padding-bottom: 10px;
     font-size: 40px;
     font-weight: 500;
@@ -7,14 +7,14 @@
     color: rgb(49, 49, 49);
 }
 
-.about_intro{
+/* .about_intro{
     font-size: 20px;
     padding-top: 1%;
     padding-left: 1%;
-}
+} */
 
 .research{
-    padding-top: 10%;
+    padding-top: 7%;
     font-size: 40px;
     color: rgb(49, 49, 49);
 

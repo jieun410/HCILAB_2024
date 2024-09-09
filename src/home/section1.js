@@ -8,8 +8,13 @@ function section1() {
 
 return (
     <div className="mainLogo">
+        <div className='mains'>
             <img className="mainLogo_img" src={`${process.env.PUBLIC_URL}/img/logo.png`}/>
             <h1 className="mainLogo_text"> Human Computer Interaction(HCI) Lab </h1>
+        </div>
+
+        <a className='mainLogo_btn' href='/Aboutus'>About Us</a>
+            
     </div>
 );
 }

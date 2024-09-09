@@ -1,22 +1,45 @@
-.mainLogo{
-    display: flex; 
+.mainLogo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 150px;
     padding-bottom: 100px;
-
 }
 
-.mainLogo_img{
+.mains{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.mainLogo_img {
     width: auto;
     height: 15%;
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(22, 22, 22));
 }
 
-.mainLogo_text{
-    position: relative;
+.mainLogo_text {
     font-size: 37px;
-    color:  rgb(58, 58, 58);
+    color: rgb(58, 58, 58);
     font-weight: normal;
-    top: 30px;
-} 
+    margin-top: 20px;
+}
+
+.mainLogo_btn {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: #2f2f2f; 
+    background-color: #f0f0f0; 
+    border: 2px solid #646464; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+.mainLogo_btn:hover {
+    background-color: #e0e0e0; 
+}

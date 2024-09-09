@@ -1,0 +1,49 @@
+.HCI {
+    margin-top: 70px;
+}
+
+.Lab {
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin: 0; 
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+}
+
+/* 
+.Lab_intro {
+    font-size: 20px;
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center; 
+
+} */
+
+.hciimg {
+    padding-top: 3%;
+    display: block;
+    margin: 0 auto; 
+    height: 250px;
+    width: auto;
+    
+}
+
+.hci_intro {
+    padding-top: 2%;
+    display: block;
+    position: relative;
+    left: 0; 
+    right: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(58, 58, 58);
+    line-height: 30px;
+}
+
