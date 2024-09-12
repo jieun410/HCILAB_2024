@@ -1,9 +1,16 @@
 import React from "react";
+import Professor from "./members/Professor";
+import ProfName from "./members/ProfName";
+import "./main.css";
 
-function Member() {
-    return{
 
-    }
+function member() {
+    return (
+        <>
+        <Professor/>
+        <ProfName/>
+        </>
+    );
 }
 
-export default Member;
+export default member;

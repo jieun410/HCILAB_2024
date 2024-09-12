@@ -1,0 +1,40 @@
+.Professor_page {
+    margin-top: 70px;
+}
+
+
+.professor_banner {
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin: 0; 
+    background-color: rgb(197, 197, 197);
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+}
+
+/* .Professor_container{
+    display: flex;
+    align-items: center;
+} */
+
+/* .Professor_img{
+    margin-right: 20px;
+}
+
+.prof_img {
+    padding-top: 30%;
+    padding-left: 60%;
+    height: 400px;
+    width: auto;   
+}
+
+.prof_Name{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 20px;
+} */

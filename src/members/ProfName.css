@@ -1,0 +1,86 @@
+.Professor_container {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.Professor_img {
+    margin-right: 20px;
+}
+
+.prof_img {
+    height: 400px;
+    width: auto;
+}
+
+.Prof_Name {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 100px;
+    position: relative;
+    width: 450px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Prof_Name {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(62, 62, 62);
+}
+
+
+.lineUp, .lineDown {
+    background: #9d9d9d;
+    width: 450px;
+    height: 3.7px;
+    position: absolute;
+}
+
+
+.lineUp {
+    top: 0;
+    left: 0;
+
+}
+
+
+.lineDown {
+    bottom: 0;
+    left: 0;
+}
+
+
+.prof_intro {
+    font-size: 16px; 
+    margin-top: 30px; 
+    margin-left: 120px;
+}
+
+.pro{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.email{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.edu{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.emp{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.re{
+    font-size: 20px;
+    font-weight: 500;
+}

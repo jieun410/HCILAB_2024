@@ -1,59 +1,89 @@
-.menubar{
+.menubar {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content:space-between; /*아이템 사이 균일한 간격 */
+    justify-content: space-between; /* 메뉴 항목과 기타 요소 사이에 균일한 간격 */
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
     padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /*메뉴바 다른 요소 위 배치*/
+    z-index: 1000; /* 메뉴바를 다른 요소 위에 배치 */
     box-sizing: border-box;
-
 }
-.logo{
+
+.logo {
     height: 50px;
-    cursor: pointer; /*클릭 가능한 아이콘*/
-
+    cursor: pointer; /* 클릭 가능한 아이콘 */
 }
 
-.menu{
-    display: flex; /*메뉴항목 가로 배치*/
-    gap: 20px; /* 항목 사이 간격*/
+.menu {
+    display: flex; /* 메뉴 항목을 가로로 배치 */
+    gap: 20px; /* 항목 사이 간격 */
     font-size: 18px;
     font-weight: 500;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none; /* 기본 리스트 스타일 제거 */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
 }
 
 .menu a {
-    color: rgb(113, 113, 113);
+    color: rgb(113, 113, 113); /* 기본 링크 색상 */
     text-decoration: none; /* 링크 기본 밑줄 제거 */
-
+    transition: color 0.3s ease; /* 색상 전환 효과 */
+    padding: 10px 15px; /* 클릭 가능한 영역 넓히기 */
 }
 
-.other{
+.menu a:hover {
+    color: rgb(0, 0, 0); /* 마우스 오버 시 색상 */
+}
+
+.menu a:active {
+    color: rgb(100, 100, 100); /* 클릭 시 색상 */
+}
+
+/* 현재 페이지 스타일 */
+.menu a.active {
+    color: rgb(53, 53, 53); /* 현재 페이지 색상 */
+    font-weight: bold; /* 강조된 폰트 두께 */
+    border-bottom: 2px solid rgb(53, 53, 53); /* 하단에 밑줄 추가 */
+}
+
+.other {
     display: flex;
     align-items: center; /* 수직 중앙 정렬 */
     gap: 20px; /* 로그인 버튼과 검색 아이콘 사이 간격 */
-    /* font-size: 18px; */
-
-
 }
 
-.login{
+.login {
     text-decoration: none;
-    color: rgb(113, 113, 113);
+    color: rgb(113, 113, 113); /* 기본 로그인 버튼 색상 */
     font-weight: 500;
     font-size: 18px;
+    transition: color 0.3s ease; /* 색상 전환 효과 */
 }
 
-.search{
+.login:hover {
+    color: rgb(53, 53, 53); /* 마우스 오버 시 색상 */
+}
+
+.search {
     width: 24px;
     height: auto;
-    filter: opacity(0.5) drop-shadow(0 0 0 rgb(113, 113, 113)); /*png 색 수정*/
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(113, 113, 113)); /* PNG 색상 조정 */
 }
 
+/* 반응형 디자인 */
 @media (min-width: 1024px) and (max-width: 1279px) {
     .menu {
         font-size: 18px;
@@ -62,7 +92,7 @@
     .login {
         font-size: 18px;
     }
-    .search{
+    .search {
         width: 24px;
     }
 }
@@ -75,13 +105,12 @@
     .login {
         font-size: 16px;
     }
-    .search{
+    .search {
         width: 20px;
     }
 }
 
-
-@media (min-width: 480px) and (max-width: 767px){
+@media (min-width: 480px) and (max-width: 767px) {
     .menubar {
         flex-direction: column;
         align-items: flex-start;
@@ -96,15 +125,10 @@
         margin-top: 10px;
         gap: 10px;
     }
-    /* .logo {
-        margin-bottom: 10px;
-        height: 30px;
-    } */
-    
-    .login{
+    .login {
         font-size: 14px;
     }
-    .search{
+    .search {
         width: 18px;
     }
 }
@@ -128,17 +152,10 @@
         width: 100%;
         justify-content: space-between;
     }
-    /* .logo {
-        margin-bottom: 5px;
-        height: 30px;
-    } */
-
-    .login{
+    .login {
         font-size: 12px;
     }
-    
-    .search{
+    .search {
         width: 16px;
     }
-
 }
