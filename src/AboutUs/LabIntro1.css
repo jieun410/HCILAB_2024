@@ -41,9 +41,10 @@
     right: 0;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     color: rgb(58, 58, 58);
     line-height: 30px;
+    padding-bottom: 10%;
 }
 
