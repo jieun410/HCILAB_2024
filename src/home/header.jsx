@@ -37,7 +37,7 @@ function Header() {
             </div>
 
             <div className='other'>
-                <Link className="login" to="/login">Login</Link>
+                <Link className="login" to="/Sginup">Login</Link>
                 <Link to="/search">
                     <img className="search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt='search'/>
                 </Link>

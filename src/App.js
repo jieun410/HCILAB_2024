@@ -4,18 +4,20 @@ import Header from "./home/header"
 import Main from "./main";
 import AboutUs from "./AboutUs"
 import Member from "./member"
+import Sginin from "./Authority/Sginin";
 
 
 const App = () => {
-    return(
+    return (
         <BR>
-        <Header/>
+            <Header />
             <Routes>
-                <Route path="/home" element={<Main />}></Route>
-                <Route path="/AboutUs" element={<AboutUs />}></Route>
-                <Route path="/Member" element={<Member />}></Route>
+            <Route path="/home" element={<Main />}></Route>
+            <Route path="/AboutUs" element={<AboutUs />}></Route>
+            <Route path="/Member" element={<Member />}></Route>
+            <Route path="/Sginup" element={<Sginin />}></Route>
             </Routes>
         </BR>
-    )
+    );
 }
 export default App;

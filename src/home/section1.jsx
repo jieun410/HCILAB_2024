@@ -13,7 +13,7 @@ return (
             <h1 className="mainLogo_text"> Human Computer Interaction(HCI) Lab </h1>
         </div>
 
-        <a className='mainLogo_btn' href='/Aboutus'>About Us</a>
+        <a className='mainLogo_btn' href='/AboutUs'>About Us</a>
             
     </div>
 );
