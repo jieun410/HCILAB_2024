@@ -20,14 +20,14 @@ function Header() {
                             <a href="/home">Home</a>
                         </li>
                         <li>
-                            <a href="/Member">Member</a>
+                            <a href="/member">Member</a>
                             <ul>
-                            <li><a href="/Member">Professor</a></li>
+                            <li><a href="/Professor">Professor</a></li>
                             <li><a href="/Student">Student</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="/Publications">Publications</a>
+                            <a href="/Publication">Publications</a>
                         </li>
                         <li>
                             <a href="Contact">Contact</a>
@@ -37,7 +37,7 @@ function Header() {
             </div>
 
             <div className='other'>
-                <Link className="login" to="/Sginup">Login</Link>
+                <Link className="login" to="/Signin">Login</Link>
                 <Link to="/search">
                     <img className="search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt='search'/>
                 </Link>

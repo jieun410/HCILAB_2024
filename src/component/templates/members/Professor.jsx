@@ -1,13 +1,17 @@
 import React from "react";
+import "./Professor.css";
 import "./ProfName.css";
 
-function ProfName() {
+function Professor() {
     const handleNavigation = (path) => {
         window.location.href = path;
     };
 
     return (
-        <div>
+        <div className="Professor_page">
+            <div className="professor_banner">
+                <h1>Professor</h1>
+            </div>
             <div className="Professor_container">
                 <div className="Professor_img">
                     <img src={`${process.env.PUBLIC_URL}/img/prof.jpg`} className="prof_img" alt="Professor" />
@@ -39,12 +43,10 @@ function ProfName() {
                         <span className="re"><br/>Research Area<br/><br/></span>
                         <span>HCI, BCI, 오감정보처리<br/><br/></span>
                     </div>
-
                 </div>
-
             </div>
         </div>
     );
-    }
+}
 
-export default ProfName;
+export default Professor;

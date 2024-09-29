@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between; /* 왼쪽, 중앙, 오른쪽 정렬을 위해 */
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
 .menu-container {
     display: flex;
     flex-grow: 1;
-    justify-content: center; /* 메뉴를 중앙 정렬 */
+    justify-content: center; 
 }
 
 .menu {
@@ -33,7 +33,7 @@
     padding: 10px;
 }
 
-/* 메뉴 항목 리스트 스타일 */
+
 .menu ul {
     display: flex;
     list-style: none;
@@ -41,14 +41,14 @@
     margin: 0;
 }
 
-/* 메뉴 항목 스타일 */
+
 .menu li {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-/* 메뉴 링크 스타일 */
+
 .menu a {
     color: rgb(113, 113, 113);
     text-decoration: none;
@@ -56,24 +56,24 @@
     padding: 10px 15px;
 }
 
-/* 메뉴 링크 호버 스타일 */
+
 .menu a:hover {
     color: rgb(0, 0, 0);
 }
 
-/* 메뉴 링크 클릭 시 스타일 */
+
 .menu a:active {
     color: rgb(100, 100, 100);
 }
 
-/* 현재 페이지 스타일 */
+
 .menu a.active {
     color: rgb(53, 53, 53);
     font-weight: bold;
     border-bottom: 2px solid rgb(53, 53, 53);
 }
 
-/* 드롭다운 메뉴 스타일 */
+
 .menu ul ul {
     display: none;
     position: absolute;
@@ -85,24 +85,23 @@
     z-index: 2;
 }
 
-/* 드롭다운 메뉴가 보이도록 설정 */
+
 .menu li:hover > ul {
     display: block;
 }
 
-/* 드롭다운 메뉴 항목 스타일 */
 .menu ul ul li {
     padding: 0;
 }
 
-/* 드롭다운 메뉴 링크 스타일 */
+
 .menu ul ul li a {
     display: flex;
     padding: 10px 15px;
     color: rgb(113, 113, 113);
 }
 
-/* 드롭다운 메뉴 링크 호버 스타일 */
+
 .menu ul ul li a:hover {
     background: #eee;
 }

@@ -1,22 +1,22 @@
 import React from 'react';
-import './Sginin.css';
+import './Signin.css';
 
-function Sginin() {
+function Signin() {
     const handleNavigation = (path) => {
         window.location.href = path;
     };
 
     return (
-        <div className='sginin'>
+        <div className='signin'> 
             <div className="container">
                 <div className="sign-in-container">
                     <h1>Sign in</h1>
                     <div className="social-container">
-                        <a href="#" className="social"><i className="fa fa-facebook"></i></a>
+                        {/* <a href="#" className="social"><i className="fa fa-naver"></i></a>
                         <a href="#" className="social"><i className="fa fa-google"></i></a>
-                        <a href="#" className="social"><i className="fa fa-linkedin"></i></a>
+                        <a href="#" className="social"><i className="fa fa-kakao"></i></a> */}
                     </div>
-                    <span>or use your email account:</span>
+                    {/* <span>or use your email account:</span> */}
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
                     <a href="#">Forgot your password?</a>
@@ -35,4 +35,4 @@ function Sginin() {
     );
 }
 
-export default Sginin;
+export default Signin;

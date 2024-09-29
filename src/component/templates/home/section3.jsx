@@ -23,7 +23,7 @@ return (
                 <div>
                     <img className="research_img" src={`${process.env.PUBLIC_URL}/img/chick.jpg`} align="left" alt="project1"/>
                     <div className='research_text'>
-                        <span>위풍당당 오리친구 ㅎㅎ</span>
+                        <span>🐤 너는 오리니? 메추리니? 닭이니? 청둥오리니?</span>
                     </div>
                 </div>
                 </div>

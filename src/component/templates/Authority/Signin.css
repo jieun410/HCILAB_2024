@@ -1,32 +1,28 @@
-General Container Setup
-.sginin{
-    margin-top: 70px;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body, html {
-    height: 100%;
+    height: none;
     font-family: 'Arial', sans-serif;
+}
+
+.signin {
+    margin-top: 70px; 
 }
 
 .container {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 70px); 
     justify-content: space-between;
     align-items: center;
 }
 
-/* Left Panel (Sign-in) */
+
 .sign-in-container {
     width: 50%;
-    height: 100%;
     padding: 2rem;
     background-color: #fff;
     display: flex;
@@ -35,11 +31,13 @@ body, html {
     align-items: center;
 }
 
+
 h1 {
     margin-bottom: 1rem;
     font-size: 2.5rem;
     color: #333;
 }
+
 
 .social-container {
     display: flex;
@@ -60,10 +58,6 @@ h1 {
     color: #333;
 }
 
-.social:hover {
-    background-color: #f0f0f0;
-}
-
 input {
     width: 80%;
     padding: 15px;
@@ -81,25 +75,8 @@ input {
     cursor: pointer;
     width: 80%;
     border-radius: 5px;
-    font-size: 1rem;
 }
 
-.sign-in-btn:hover {
-    background-color: #a0a0a0;
-}
-
-a {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    color: #333;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Right-side panel for the sign-up message */
 .overlay-container {
     width: 50%;
     height: 100%;
@@ -109,12 +86,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
-.overlay-panel {
-    text-align: center;
-    padding: 3rem;
-}
-
 .sign-up-btn {
     background-color: transparent;
     border: 2px solid white;
@@ -124,10 +95,18 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 2rem;
+    
 }
 
 .sign-up-btn:hover {
     background-color: white;
     color: #747474;
     border-color: #747474;
+}
+.overlay-panel {
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
 }

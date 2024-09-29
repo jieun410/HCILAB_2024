@@ -1,12 +1,12 @@
 import React from "react";
-import Sginin from "./Authority/Sginin"
+import Signin from "../templates/Authority/Signin"
 import "./main.css";
 
 function Authority() {
     return (
-        <>
-        <Sginin/>
-        </>
+    <>
+        <Signin/>
+    </>
     );
 }
 
