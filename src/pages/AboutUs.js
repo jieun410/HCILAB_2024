@@ -1,5 +1,5 @@
 import React from 'react';
-import LabItro1 from '../templates/AboutUs/LabIntro1';
+import LabItro1 from '../component/templates/AboutUs/LabIntro1';
 import './main.css';
 
 

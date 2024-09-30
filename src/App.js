@@ -1,13 +1,14 @@
 import React, {Component} from "react";
 import {BrowserRouter as BR, Routes, Route} from "react-router-dom";
 import Header from "./component/templates/home/header";
-import Main from "./component/pages/main";
-import AboutUs from "./component/pages/AboutUs"
-import Member from "./component/pages/member"
+import Main from "./pages/main";
+import AboutUs from "./pages/AboutUs";
+import Member from "./pages/member";
 import Signin from "./component/templates/Authority/Signin";
 import Student from "./component/templates/members/Student";
 import Professor from "./component/templates/members/Professor";
 import Publication from "./component/templates/Publications/Publication";
+import LabIntro1 from "./component/templates/AboutUs/LabIntro1"
 
 
 const App = () => {
@@ -27,3 +28,4 @@ const App = () => {
     );
 }
 export default App;
+

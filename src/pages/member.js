@@ -1,6 +1,6 @@
 import React from "react";
-import Professor from "../templates/members/Professor";
-import Student from "../templates/members/Student";
+import Professor from "../component/templates/members/Professor";
+import Student from "../component/templates/members/Student";
 import "./main.css";
 
 
