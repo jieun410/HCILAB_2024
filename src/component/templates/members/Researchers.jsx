@@ -1,5 +1,5 @@
 import React from "react";
-import "./Student.css";
+import "./Researchers.css";
 import "./StuIntro.css";
 
 function Student() {
@@ -10,7 +10,7 @@ function Student() {
     return (
         <div className="Student_page">
             <div className="Student_banner">
-                <h1>Student</h1>
+                <h1>Researchers</h1>
             </div>
 
             <div className="Student_container">

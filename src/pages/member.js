@@ -1,6 +1,6 @@
 import React from "react";
 import Professor from "../component/templates/members/Professor";
-import Student from "../component/templates/members/Student";
+import Researchers from "../component/templates/members/Researchers";
 import "./main.css";
 
 
@@ -9,7 +9,7 @@ function member() {
     return (
         <>
         <Professor/>
-        <Student/>
+        <Researchers/>
         </>
     );
 }

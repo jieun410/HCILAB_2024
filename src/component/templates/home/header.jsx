@@ -23,7 +23,8 @@ function Header() {
                             <a href="/member">Member</a>
                             <ul>
                             <li><a href="/Professor">Professor</a></li>
-                            <li><a href="/Student">Student</a></li>
+                            <li><a href="/Researchers">Researchers</a></li>
+                            <li><a href="/Domain Specialist">Domain Specialist</a></li>
                             </ul>
                         </li>
                         <li>
@@ -37,7 +38,7 @@ function Header() {
             </div>
 
             <div className='other'>
-                <Link className="login" to="/Signin">Login</Link>
+                {/* <Link className="login" to="/Signin">Login</Link> */}
                 <Link to="/search">
                     <img className="search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" alt='search'/>
                 </Link>

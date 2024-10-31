@@ -5,7 +5,7 @@ import Main from "./pages/main";
 import AboutUs from "./pages/AboutUs";
 import Member from "./pages/member";
 import Signin from "./component/templates/Authority/Signin";
-import Student from "./component/templates/members/Student";
+import Researchers from "./component/templates/members/Researchers";
 import Professor from "./component/templates/members/Professor";
 import Publication from "./component/templates/Publications/Publication";
 import LabIntro1 from "./component/templates/AboutUs/LabIntro1"
@@ -20,7 +20,7 @@ const App = () => {
             <Route path="/AboutUs" element={<AboutUs />}></Route>
             <Route path="/Member" element={<Member />}></Route>
             <Route path="/Signin" element={<Signin />}></Route>
-            <Route path="/Student" element={<Student />}></Route>
+            <Route path="/Researchers" element={<Researchers />}></Route>
             <Route path="/Professor" element={<Professor />}></Route>
             <Route path="/Publication" element={<Publication/>}></Route>
             </Routes>
