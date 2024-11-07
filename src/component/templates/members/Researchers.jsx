@@ -1,6 +1,6 @@
 import React from "react";
 import "./Researchers.css";
-import "./StuIntro.css";
+import "./ResIntro.css";
 
 function Student() {
     const handleNavigation = (path) => {
